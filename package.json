@@ -1,0 +1,13 @@
+{
+  "name": "ec2-instance-id",
+  "version": "1.0.0",
+  "description": "A minimal web service to return the instance ID when running on AWS EC2 instances.",
+  "license": "MIT",
+  "author": "Andrew Gentile <andrew@agentile.dev>",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "PORT=3000 node --watch ./src/index.js"
+  }
+}
